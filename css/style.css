@@ -1,0 +1,173 @@
+/* GLOBAL STYLES */
+
+html {
+    font-size: 100%;
+    box-sizing: border-box;
+    color: #343a40;
+    background: #fff;
+}
+
+body {
+    font-family: cursive;
+    line-height: 1.5;
+    font-weight: thin;
+    overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-weight: 400;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/* END OF GLOBAL STYLES */
+
+
+/* HEADER SECTION STYLES */
+
+header {
+    background-color: rgb(25, 26, 29);
+    height: auto;
+    color: white;
+}
+
+header a {
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+header .nav-link {
+    font-weight: normal!important;
+    font-size: 1.2rem;
+    color: white!important;
+}
+
+header a:hover {
+    text-decoration: underline!important;
+    color: #007bff!important;
+}
+
+header h1 {
+    font-size: 4rem;
+}
+
+header p {
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+header img {
+    width: 400px;
+    display: inline-block;
+    transition: ease-in-out;
+    transition-duration: 2s;
+}
+
+header img:hover {
+    border-radius: 50%;
+}
+
+
+/* END OF HEADER SECTION STYLES */
+
+
+/* OVERVIEW SECTION STYLES */
+
+section.overview {
+    background-image: url(/images/hero_art_screens1.png);
+    background-repeat: repeat;
+    background-attachment: fixed;
+    padding: 50px 200px;
+    text-align: center;
+}
+
+.overview h1 {
+    font-size: 3rem;
+}
+
+.overview p {
+    font-size: 1.3rem;
+}
+
+.about-me-details {
+    font-size: 1.2rem;
+}
+
+
+/* ABOUT ME PAGE STYLE */
+
+.about-me-images {
+    display: block;
+    width: 100%;
+}
+
+.get-in-touch {
+    background-color: rgb(25, 26, 29);
+    height: 300px;
+}
+
+
+/* FOOTER */
+
+footer {
+    font-size: 1.4rem;
+}
+
+
+/* MEDIA QUERIES */
+
+@media(max-width: 800px) {
+    /* Header Styles */
+    header h1 {
+        font-size: 2.5rem;
+    }
+    header p {
+        font-size: 1.2rem;
+    }
+    .rounded-button {
+        border-radius: 20%!important;
+        font-size: 1rem;
+    }
+    /* Overview Section Styles */
+    section.overview {
+        padding: 50px;
+        text-align: center;
+    }
+    .overview h1 {
+        font-size: 2.5rem;
+    }
+    .overview p {
+        font-size: 1.2rem;
+    }
+}
+
+@media(max-width: 750px) {
+    /* Header Styles */
+    header {
+        text-align: center;
+    }
+    header h1 {
+        font-size: 2.1rem;
+    }
+    header p {
+        font-size: 1.1rem;
+    }
+    .rounded-button {
+        border-radius: 10%!important;
+        font-size: 1rem;
+    }
+    /* Overview Section Styles */
+    section.overview {
+        padding: 20px 5px;
+        text-align: center;
+    }
+    .overview h1 {
+        font-size: 2.1rem;
+    }
+    .overview p {
+        font-size: 1.1rem;
+    }
+}
